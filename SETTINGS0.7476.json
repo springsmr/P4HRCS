@@ -1,0 +1,18 @@
+{
+        "path":{
+        "root" : "/home/bigdata/disk/data/seizure-prediction/kaggle_data",
+        "raw_data_path" : "/home/bigdata/disk/data/seizure-prediction/kaggle_data/raw_data",
+        "processed_data_path" :"/home/bigdata/disk/data/seizure-prediction/kaggle_data/processed_data",
+        "model_path" : "/home/bigdata/disk/data/seizure-prediction/kaggle_data/models/LR",
+        "submission_path" : "/home/bigdata/disk/data/seizure-prediction/kaggle_data/submissions/linear_models"
+    },
+
+    "preprocessor":{
+        "highcut" : 180,
+        "lowcut" : 0.1,
+        "nfreq_bands": 8,
+        "features": "meanlog",
+        "win_length_sec" : 60,
+        "stride_sec" : 30
+    }
+}
